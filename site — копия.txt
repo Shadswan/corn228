@@ -27,14 +27,14 @@ style="width:60%;">
 <!--В ячейке строки создаём ещё одну таблицу для шапки сайта.
 Оформление:
 border="1" - двойная рамка толщиной в 1px.
-bgcolor="#FF00FF" 
+bgcolor="#000000" 
 cellpadding="10" - отступ содержимого от рамки не менее 10px.
 style="width:100%; border-radius:5px;" - добавляем "резиновость"
 и закругляем уголки рамки-->
 <table
 border="1"
 background="images/168.png"
-bgcolor="#800080"
+bgcolor="#000000"
 cellpadding="10"
 style="width:100%; border-radius:5px;">
 <!--Создаём строку таблицы-->
@@ -57,7 +57,7 @@ style="width:100%; border-radius:5px;">
 
 <table
 border="1"
-bgcolor="#800080"
+bgcolor="#000000"
 cellpadding="10"
 style="width:100%; border-radius:5px;">
 <!--Создаём строку-->
@@ -83,7 +83,7 @@ style="width:80%">
 <!--САЙДБАР-->
 
 <!--Создаём ячейку сайдбара-->
-<td bgcolor="#e6e6fa">
+<td bgcolor="#000000">
 <h3>Меню</h3>
 <!--Абзац для ссылки на страницу сайта-->
 <p>
@@ -113,10 +113,11 @@ style="margin-left:5px;" - отступ названия от маркера-->
 <tr>
 <!--Ячейка с дополнительной информацией-->
 <td
-bgcolor="#FF00FF"
+bgcolor="#000000"
 align="center">
 <h3>Общая информация</h3>
-<p>ВАША РЕККЛАМА НЕ ДОРОГО))0))0</p>
+<p>
+<font size="7" color="red" face="Arial">ВАША РЕККЛАМА НЕ ДОРОГО))0))0</p>
 <!--Закрываем ячейку с общей информацией
 и таблицу основного контента-->
 </td>
@@ -128,7 +129,7 @@ align="center">
 <!--Создаём таблицу подвала-->
 <table
 border="1"
-bgcolor="#7FFFD4"
+bgcolor="#000000"
 height="100"
 cellpadding="10"
 style="width:100%; border-radius:5px;">
